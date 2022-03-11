@@ -48,7 +48,7 @@ Below is the setting that worked well for me so far:
 
 Node Version Manager allows you to easily switch between different versions of node. You do not have to install it, unless you work with Node. It is included here as it requires a small modification to your `~/.zshrc` file.
 
-* On the [Github page]((https://github.com/nvm-sh/nvm)), after the command `wget -q0- ...`, it says that the script would add it's settings automatically to your `~/.zshrc` file, but you might have to do manually.
+* On the [Github page](https://github.com/nvm-sh/nvm), after the command `wget -q0- ...`, it says that the script would add it's settings automatically to your `~/.zshrc` file, but you might have to do manually.
 
 * If you have to, add the `export NVM_DIR="$([...]"$NVM_DIR/nvm.sh" # This loads nvm` snippet available in the Github page to your `~/.zshrc` file (under the `export PATH...`, or anywhere else).
 
