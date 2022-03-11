@@ -8,6 +8,8 @@ This documentation page amalgates information learned over time and that have be
 
 This resource repo has been created with the help of Docusaurus and is being hosted as a gh-pages.
 
+There is also more informal documentation throughout my blog posts such as those [tagged with guide](/blog/tags/guide).
+
 ## Navigation
 
 See the sidebar to nagivate between resources.
