@@ -27,6 +27,7 @@ If you wish for your Docusaurus website to point at https://username.github.io/ 
 * Navigate to the new application `cd laurent-lao.github.io`)
 * Init it as a Git directory `git init`
 * Edit the `docusaurus.config.js` with the proper information
+  * Add a `deploymentBranch: "gh-pages"` property to the file
 * Execute `git commit -am "npx create-docusarus@lastest"` to stage and commit the newly created files
 * Link the local repo with the remote and push it
   * 
@@ -37,6 +38,7 @@ If you wish for your Docusaurus website to point at https://username.github.io/ 
   ```
 * Modify the website to your liking
 * Finally, deploy it with `npm run deploy`
+* You might have to configure the deployment through Github by going to `Settings -> Pages` and change the branch to "gh-pages"
 
 
 
