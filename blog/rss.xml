@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Laurent Lao Blog</title>
-        <link>https://laurentlao.com/blog</link>
+        <link>https://laurent-lao.github.io/blog</link>
         <description>Laurent Lao Blog</description>
         <lastBuildDate>Fri, 11 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[First blog post with Docusaurus!]]></title>
-            <link>https://laurentlao.com/blog/first-blog-post</link>
+            <link>https://laurent-lao.github.io/blog/first-blog-post</link>
             <guid>first-blog-post</guid>
             <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[After some time familiarizing myself with React, I decided to ditch my old docsify-based website and transitioned over to Docusaurus.]]></description>
