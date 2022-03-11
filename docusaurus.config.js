@@ -71,7 +71,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Git Guide',
                 to: '/docs/git/git-tldr',
               },
             ],
