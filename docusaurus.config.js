@@ -8,11 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Laurent Lao',
   tagline: 'Personal Website',
-  url: 'https://laurentlao.com',
+  url: 'https://laurent-lao.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  trailingSlash: false,
   favicon: 'img/favicon.ico',
   organizationName: 'laurent-lao', // Usually your GitHub org/user name.
   projectName: 'laurent-lao.github.io', // Usually your repo name.
