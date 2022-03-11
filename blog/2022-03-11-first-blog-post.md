@@ -20,19 +20,48 @@ Below you will find detailed instructions as to how to create a website such as 
 
 ## Create a Docusaurus website
 
-If you wish for your Docusaurus website to point at https://username.github.io/ like mine, you must create a Github repository named `username.github.io`. Otherwise, it will create it at https://username.github.io/reponame/
+If you wish for your Docusaurus website to point at `https://username.github.io/` like mine, you must create a Github repository named `username.github.io`. Otherwise, it will create it at `https://username.github.io/reponame/`
 
 * Create an empty Github Repository (e.g. `laurent-lao.github.io`)
-* Create the Docusaurus application in your local machine using this command `npx create-docusaurus@latest laurent-lao.github.io classic`
-* Navigate to the new application `cd laurent-lao.github.io`)
-* Init it as a Git directory `git init`
+* Create the Docusaurus application in your local machine using this command 
+
+  ```
+  npx create-docusaurus@latest laurent-lao.github.io classic
+  ```
+
+* Navigate to the new application (`cd laurent-lao.github.io`)
+* Init it as a Git directory 
+  
+  ```
+  git init
+  ```
+
 * Edit the `docusaurus.config.js` with the proper information
-  * Add a `deploymentBranch: "gh-pages"` property to the file
+  * Add a `deploymentBranch: 'gh-pages'` property to the file
   * Add a `trailingSlash: false` property to the file
+
+  ```jsx title=/docusaurus.config.js
+  const config = {
+    title: 'Laurent Lao',
+    tagline: 'Personal Website',
+    url: 'https://laurent-lao.github.io',
+    baseUrl: '/',
+    onBrokenLinks: 'throw',
+    onBrokenMarkdownLinks: 'warn',
+    // highlight-next-line
+    trailingSlash: false,
+    favicon: 'img/favicon.ico',
+    organizationName: 'laurent-lao', // Usually your GitHub org/user name.
+    projectName: 'laurent-lao.github.io', // Usually your repo name.
+    // highlight-next-line
+    deploymentBranch: 'gh-pages',
+  ```
+
 * Execute `git commit -am "npx create-docusarus@lastest"` to stage and commit the newly created files
 * Link the local repo with the remote and push it
-  * 
+  
   ```bash
+  # Execute this
   git remote add origin git@github.com:laurent-lao/laurent-lao.github.io.git
   git branch -M main
   git push -u origin main
