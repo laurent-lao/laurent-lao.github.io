@@ -28,6 +28,7 @@ If you wish for your Docusaurus website to point at https://username.github.io/ 
 * Init it as a Git directory `git init`
 * Edit the `docusaurus.config.js` with the proper information
   * Add a `deploymentBranch: "gh-pages"` property to the file
+  * Add a `trailingSlash: false` property to the file
 * Execute `git commit -am "npx create-docusarus@lastest"` to stage and commit the newly created files
 * Link the local repo with the remote and push it
   * 
