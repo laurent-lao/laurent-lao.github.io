@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Laurent Lao',
   tagline: 'Personal Website',
-  url: 'https://laurent-lao.github.io',
+  url: 'https://www.laurentlao.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
