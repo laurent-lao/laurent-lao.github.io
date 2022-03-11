@@ -12,6 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
   favicon: 'img/favicon.ico',
   organizationName: 'laurent-lao', // Usually your GitHub org/user name.
   projectName: 'laurent-lao.github.io', // Usually your repo name.
