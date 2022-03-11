@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Laurent Lao',
-  tagline: 'Laurent\'s Website',
+  tagline: 'Personal Website',
   url: 'https://laurent-lao.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -43,11 +43,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Laurent',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'LL',
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'doc',
@@ -76,16 +76,16 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Media',
             items: [
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/laurentlao/'
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/misterl2/',
+              },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/laurentlao',
@@ -100,13 +100,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/laurent-lao/laurent-lao.github.io',
+                label: 'My GitHub',
+                href: 'https://github.com/laurent-lao',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Laurent Lao. Built with Docusaurus.`,
+        copyright: `Copyright © 2020-${new Date().getFullYear()} Laurent Lao. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
