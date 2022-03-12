@@ -4,31 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Guides',
+    Svg: require('@site/static/img/full-stack-programmer.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       View <a href="/docs/intro">guides</a> I have written to serve as tutorials, cheatsheets or documentation, all designed to be shared.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Blog',
+    Svg: require('@site/static/img/edit-code.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Read my <a href="/blog">blog</a> to learn more about me and what I am working on.
       </>
     ),
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/java-script.svg').default,
     description: (
       <>
-       Personal website built with Docusarus and React components to easily publish new documentation and blogs as well as showcasing my projects.
+       This website is built with Docusarus and React components to easily publish new documentation and blogs as well as showcasing my projects.
       </>
     ),
   },

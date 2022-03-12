@@ -21,13 +21,63 @@ function HomepageHeader() {
           onInit={(typewriter) => {
             typewriter.typeString(
               'Hi, I\'m Laurent.'
-              +'<br/>'
+            )
+            .pauseFor(800)
+            .typeString('<br/>'
               +'This is my website.'
             )
             .start();
           }}
         />
         </h1>
+        <h2>
+          <Typewriter
+            options={{
+              cursor: '',
+              delay: 40,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+              .pauseFor(5000)
+              .typeString(
+                '<br />'
+                + '<br />'
+                +'It is a place for me to document and show off'
+              )
+              .pauseFor(1000)
+              .deleteChars(4)
+              .pauseFor(500)
+              .typeString(
+                'case my personal projects, learnings, and journey as a developer.'
+              )
+              .pauseFor(1000)
+              .typeString(
+                '<br />'
+                + 'I hope it can help you learn too.'
+              )
+              .start();
+            }}
+            />
+        </h2>
+        <h2>
+          <Typewriter
+            options={{
+              cursor: '',
+              delay: 70,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+              .pauseFor(16500)
+              .typeString(
+                '<br />'
+                + '<br />'
+                + '<br />'
+                + 'Thanks for stopping by!'
+                )
+              .start();
+            }}
+            />
+        </h2>
       </div>
     </header>
   );
