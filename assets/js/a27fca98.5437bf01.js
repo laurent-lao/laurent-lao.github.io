@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaurent_lao_github_io=self.webpackChunklaurent_lao_github_io||[]).push([[7964],{2906:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/first-impressions","name":"first impressions","count":1,"permalink":"/blog/tags/first-impressions"}')}}]);
