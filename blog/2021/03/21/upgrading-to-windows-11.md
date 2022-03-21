@@ -74,3 +74,7 @@ And here's what it looks like for a vertical display:
 Windows 11 has rounded windows corners, a centralized taskbar (reminiscent of macOS's dock), and dark mode, just to name a few features that are immediately apparent. I will have to spent more time with the OS to really notice all the different changes. I'm happy to say that nothing has broke so far in my development setup - something that had me worried. However, this could be due to the fact that I use VMWare Workstation 16 Pro to launch my development environment (which runs Manjaro).
 
 I have also noticed that the system sounds are different and modern, which is a welcome change, but will take getting used to after spending so long with Windows 10.
+
+All in all, the process was pretty painless although there were some hiccups.
+
+More information available about Windows 11 available [here](https://www.microsoft.com/en-ca/windows/windows-11)
