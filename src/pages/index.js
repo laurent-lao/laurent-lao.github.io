@@ -48,7 +48,7 @@ function HomepageHeader() {
               .deleteChars(4)
               .pauseFor(500)
               .typeString(
-                'case my personal projects, learnings, and journey as a developer.'
+                'case my personal projects, learnings, and journey as a developer (and serial hobbyist...). '
               )
               .pauseFor(1000)
               .typeString(
