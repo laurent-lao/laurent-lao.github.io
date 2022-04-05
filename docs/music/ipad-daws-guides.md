@@ -111,7 +111,7 @@ Here I compare the input methods for each DAW.
 
 #### Piano Roll
 
-![Korg Gadget 2 Piano Roll](./ipad-daws-assets/kg2-piano-roll.png)
+![Korg Gadget 2 Piano Roll](./ipad-daws-assets/kg2-piano-roll.PNG)
 
 ### BeatMaker 3
 
