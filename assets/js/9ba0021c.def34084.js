@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaurent_lao_github_io=self.webpackChunklaurent_lao_github_io||[]).push([[4302],{2325:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/i-pad","name":"iPad","count":1,"permalink":"/blog/tags/i-pad"}')}}]);

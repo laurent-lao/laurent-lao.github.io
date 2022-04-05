@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaurent_lao_github_io=self.webpackChunklaurent_lao_github_io||[]).push([[2930],{8884:function(u){u.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/music-production","name":"music production","count":1,"permalink":"/blog/tags/music-production"}')}}]);
