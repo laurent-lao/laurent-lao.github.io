@@ -96,7 +96,7 @@ Here I compare the input methods for each DAW.
 
 #### Piano Roll
 
-![Cubasis 3 Piano Roll](./ipad-daws-assets/cubasis-piano-roll.png)
+![Cubasis 3 Piano Roll](./ipad-daws-assets/cubasis-piano-roll.PNG)
 
 
 ### Korg Gadget 2
@@ -139,7 +139,7 @@ Here I compare the input methods for each DAW.
 
 #### Piano Roll
 
-![NanoStudio 2 Piano Roll](./ipad-daws-assets/nano2-piano-roll.png)
+![NanoStudio 2 Piano Roll](./ipad-daws-assets/nano2-piano-roll.PNG)
 
 ### FL Studio Mobile
 
