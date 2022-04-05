@@ -125,7 +125,7 @@ Here I compare the input methods for each DAW.
 
 #### Piano Roll
 
-![BeatMaker 3 Piano Roll](./ipad-daws-assets/bm3-piano-roll.png)
+![BeatMaker 3 Piano Roll](./ipad-daws-assets/bm3-piano-roll.PNG)
 
 ### NanoStudio 2
 
