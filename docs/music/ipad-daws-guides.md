@@ -92,7 +92,7 @@ Here I compare the input methods for each DAW.
 
 #### Keys
 
-![Cubasis 3 Keys](./ipad-daws-assets/cubasis-keys.PNG)
+![Cubasis 3 Keys](./ipad-daws-assets/cubasis-keys1.PNG)
 
 #### Piano Roll
 
